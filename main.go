@@ -2,10 +2,14 @@ package main
 
 import (
 	"fmt"
-	"learn/myutils"
 )
 
 func main() {
 	fmt.Println("go")
-	myutils.PrintMessgae("hello")
+	var name = "Bhavil"
+	fmt.Println(name)
+	var money float64 = 1212.101
+	fmt.Println(money)
+	person := "hello"
+	fmt.Println(person)
 }
