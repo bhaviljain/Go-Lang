@@ -40,10 +40,11 @@ func main() {
 	// 	}
 	// 	fmt.Println(string(buffer[:n]))
 	// }
-	con, err := os.ReadFile("example.txt")
-	if err != nil {
+
+	content, error := os.ReadFile("example.txt")
+	if error != nil {
 		fmt.Println("erros")
 		return
 	}
-	fmt.Println(string(con))
+	fmt.Println(string(content))
 }
